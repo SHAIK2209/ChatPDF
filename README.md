@@ -21,7 +21,8 @@ No API key required. Runs **100% locally**.
 
 🖼️ Demo Screenshot
 
-![PDF Q\&A App Screenshot](your-screenshot-url-if-any)
+![image](https://github.com/user-attachments/assets/3741f3af-7b8f-4886-bb22-c3bb4966a498)
+
 
 
 
