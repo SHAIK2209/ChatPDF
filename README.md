@@ -94,7 +94,7 @@ Once your PDF is uploaded, try:
 
 ### 👨‍💻 Author
 
-Jaheer Ahmed – [GitHub](https://github.com/your-username)
+Jaheer Ahmed – [GitHub]((https://github.com/SHAIK2209))
 
 ---
 
