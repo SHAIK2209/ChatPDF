@@ -31,7 +31,7 @@ No API key required. Runs **100% locally**.
  1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/pdf-chatbot
+git clone https://github.com/SHAIK2209
 cd pdf-chatbot
 ```
 
@@ -47,7 +47,17 @@ source venv/bin/activate  # On macOS/Linux
 #### 3. Install Requirements
 
 ```bash
-pip install -r requirements.txt
+| Package                   | Purpose                                                               |
+| ------------------------- | --------------------------------------------------------------------- |
+| `streamlit`               | Web interface to run the app in your browser                          |
+| `PyMuPDF` (`fitz`)        | To extract readable text from PDF documents                           |
+| `langchain`               | Framework for chaining embeddings, vector search, and language models |
+| `faiss-cpu`               | Vector store to store and search PDF text chunks efficiently          |
+| `transformers`            | Loads local HuggingFace models like `flan-t5-base`                    |
+| `sentence-transformers`   | Provides powerful embedding models like `MiniLM-L6-v2` for similarity |
+| `torch`                   | Backend required to run models from `transformers`                    |
+| `accelerate` *(optional)* | Speeds up model loading, safe to include                              |
+
 ```
 
 #### 4. Run the App
@@ -97,8 +107,4 @@ Once your PDF is uploaded, try:
 Jaheer Ahmed – [GitHub](https://github.com/SHAIK2209)
 
 ---
-
-### 🛡 License
-
-MIT License. Feel free to use, modify, and share.
 
